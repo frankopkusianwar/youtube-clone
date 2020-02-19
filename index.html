@@ -6,26 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Youtube Clone</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-       <span>
-        <i class="fa fa-youtube"></i> YouTube <sup>NG</sup>
-       </span>
+       <div class="header-logo">
+           <ul>
+               <li> <i class="fa fa-bars"></i> </li>
+               <li><img src="images/logo.png" alt="Logo"></li>
+           </ul>      
+       </div>
 
-        <form action="" class="search">
-            <input type="text" name="" placeholder="Search">
+       <div class="search-container">
+        <form action="">
+            <input type="text" name="input-text" placeholder="Search">
             <button type="button">
                 <i class="fa fa-search"></i>
             </button>
         </form>
+       </div>
+        
 
-        <span>
-            <i class="fab fa-video"></i>
-            <img src="" alt="">
-            <img src="" alt="">
-            <i class="fa fa-user"></i>
-        </span>
+        <div class="header-icons">
+            <ul>
+                <li><i class="fa fa-video-camera" aria-hidden="true"></i></li>
+                <li><i class="fa fa-th-large" aria-hidden="true"></i></li>
+                <li><i class="fa fa-bell" aria-hidden="true"></i></li>
+                <li><i class="fa fa-user" aria-hidden="true"></i></li>
+            </ul>       
+        </div>
     </header>
 
     <section class="videosection">
