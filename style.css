@@ -9,6 +9,10 @@ html {
 header {
     display: flex;
     padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
 }
 
 .header-logo {
@@ -43,7 +47,7 @@ header {
 
 .search-container button {
     float: right;
-    padding: 8px 20.5px;
+    padding: 8px 24.5px;
     margin-top: 8px;
     margin-right: 16px;
     background: #ddd;
@@ -75,6 +79,7 @@ header {
 .content-section{
     display: flex;
     justify-content: space-around;
+    margin-top: 70px;
     padding: 30px;
 }
 
@@ -86,6 +91,41 @@ header {
 .videosection iframe{
     width: 760px; 
     height:480px;
+}
+.video-title {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.video-views-display {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    color: #606060;
+    margin-bottom: 8px;
+}
+
+.video-views-elem1 {
+    flex: 1;
+}
+
+.video-views-elem2 {
+    text-transform: uppercase;
+    flex: 2;
+    padding-left: 80px;
+} 
+
+.video-views-elem2 i {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
 }
 
 .inner-side-content{
