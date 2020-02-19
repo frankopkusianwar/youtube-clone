@@ -32,6 +32,7 @@ header {
     flex-basis: 50%;
     overflow: hidden;
 }
+
 .search-container input[type="text"] {
     width: 593.5px;
     padding: 6px;
@@ -39,6 +40,7 @@ header {
     font-size: 1.7rem;
     border-radius: 2px;
 }
+
 .search-container button {
     float: right;
     padding: 8px 20.5px;
@@ -50,12 +52,14 @@ header {
     border-radius: 5px;
     cursor: pointer;
 }
+
 .header-icons {
     flex:1;
     flex-basis: 25%;
     text-align: right;
     color: rgb(96, 96, 96);
 }
+
 .header-icons ul li {
     display: inline-block;
     padding-left: 15px;
@@ -63,6 +67,76 @@ header {
     list-style-type: none;
     font-size: 2rem;
 }
+
 .header-icons ul li:last-child {
     padding-right: 25px;
+}
+
+.content-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.left-content-section{
+    width:60%;
+    
+}
+
+.videosection iframe{
+    width: 760px; 
+    height:480px;
+}
+
+.inner-side-content{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.image-description{
+    margin-left: 15px;
+    line-height: 1.6;
+}
+
+.side-section{
+    width: 35%;
+}
+
+.side-header-title a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0d0d0d;
+}
+
+.side-top-links{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+}
+
+.image-description span{
+    font-size: 1.4rem;
+    color: #606060;
+
+}
+
+.side-top-links i{
+    font-size:2rem;
+    color:blue;
+    padding-left: 10px;
+}
+
+.toggle{
+    display: flex;
+}
+
+.upnext{
+    font-size: 1.8rem;
+}
+
+.inner-side-content iframe{
+    width: 180px; 
+    height: 100px;
 }
