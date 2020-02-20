@@ -80,17 +80,18 @@ header {
     display: flex;
     justify-content: space-around;
     margin-top: 70px;
-    padding: 30px;
+    padding: 30px 120px;
+    background-color: #f6f6f6;
 }
 
 .left-content-section{
     width:60%;
-    
 }
 
 .videosection iframe{
-    width: 760px; 
-    height:480px;
+    width: 660px; 
+    height:450px;
+    border: none;
 }
 .video-title {
     font-size: 2rem;
@@ -114,7 +115,7 @@ header {
 .video-views-elem2 {
     text-transform: uppercase;
     flex: 2;
-    padding-left: 80px;
+    padding-left: 40px;
 } 
 
 .video-views-elem2 i {
@@ -135,9 +136,47 @@ header {
 
 .image-description{
     margin-left: 15px;
-    line-height: 1.6;
 }
-
+.image-description-txt {
+    line-height: 1.3;
+}
+.profile-img {
+    border-radius: 50%;
+}
+.profile-txt {
+    margin-left: -55%;
+    padding-top: 7px;
+}
+.profile-txt-hdr {
+    font-size: 1.5rem;
+}
+.profile-txt-subscribers {
+    font-size: 1.2rem;
+    color: #606066;
+}
+.subscribe-btn {
+    padding: 10px 16px;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.007px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #cc0000;
+}
+.subscribe-description {
+    padding: 5px 15px 5px 70px;
+    color: #0d0d0d;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.show-more {
+    font-size: 1.3rem;
+}
+.show-more a {
+    text-decoration: none;
+    color: #606060;
+}
 .side-section{
     width: 35%;
 }
@@ -147,6 +186,7 @@ header {
     font-size: 1.5rem;
     font-weight: 600;
     color: #0d0d0d;
+    padding-bottom: 10px;
 }
 
 .side-top-links{
@@ -176,7 +216,7 @@ header {
     font-size: 1.8rem;
 }
 
-.inner-side-content iframe{
+.inner-side-content img{
     width: 180px; 
     height: 100px;
 }
