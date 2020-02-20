@@ -220,3 +220,85 @@ header {
     width: 180px; 
     height: 100px;
 }
+
+.comments{
+    margin-top: 20px;
+}
+
+.comment-number{
+    font-size: 1.6rem;
+    color: #0d0d0d;
+}
+
+.comments img {
+    height: 15px;
+    padding-left: 25px;
+}
+
+.sort-by{
+    font-size: 1.4rem;
+    color: #606060;
+}
+
+.comment-publicly{
+    padding-top: 13px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.comment-publicly span{
+    font-size: 1.4rem;
+    color: #606060;
+}
+
+.comment-description{
+    margin: 20px 0px;
+}
+
+.comment-name{
+    font-weight: 600;
+}
+
+.hr-comment, hr{
+    color: #606060;
+}
+
+.comment-container{
+    display: flex;
+    margin-top: 20px;
+}
+
+.posted-comment{
+    margin-left: 15px;
+}
+
+.comment-name{
+    font-weight: 600;
+    color: #0d0d0d;
+    font-size: 1.3rem;
+}
+
+.comment-name-describe{
+    margin-top: 5px;
+    font-size: 1.4rem;
+    padding-bottom: 15px;
+}
+
+.comment-age{
+    font-style: 1.3rem;
+    color: #606060;
+    padding-left: 5px;
+}
+
+.comment-container img{
+    height: 50px;
+}
+
+.comment-icons{
+    font-size: 1.3rem;
+    color: #606060;
+}
+
+.comment-icons i{
+    padding-right: 13px;
+}
