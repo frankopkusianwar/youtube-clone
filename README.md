@@ -51,7 +51,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Author2**
 
 - Github: [@githubhandle](https://github.com/okikiola11)
-- Twitter: [@twitterhandle](https://twitter.com/)
+- Twitter: [@twitterhandle](https://twitter.com/Kikiolla3)
 - Linkedin: [linkedin](https://linkedin.com/)
 
 ## 🤝 Contributing
