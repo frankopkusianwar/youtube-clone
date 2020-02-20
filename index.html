@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <div class="header-logo">
+           <ul>
+               <li> <i class="fa fa-bars"></i> </li>
+               <li><img src="images/logo.png" alt="Logo"></li>
+           </ul>      
+       </div>
+
+       <div class="search-container">
+        <form action="search.php">
+            <input type="text" name="input-text" placeholder="Search">
+            <button type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+       </div>
+
+        <div class="header-icons">
+            <ul>
+                <li><i class="fa fa-video-camera" aria-hidden="true"></i></li>
+                <li><i class="fa fa-th" aria-hidden="true"></i></li>
+                <li><i class="fa fa-bell" aria-hidden="true"></i></li>
+                <li><i class="fa fa-user" aria-hidden="true"></i></li>
+            </ul>       
+        </div>
+    </header>
+
+    <div class="content-section">
+        <div class="left-content-section">
+            <section class="videosection">
+                
+                <iframe src="https://www.youtube.com/embed/XAowXcmQ-kA" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <div class="video-title"> Contributing to Open Source Part 1: The Easy Way </div>
+                <div class="video-views-display grey">
+                    <div class="video-views-elem1">
+                        <span>54,074 views</span> .
+                        <span> feb 27-2017</span>
+                    </div>
+                    
+                    <div  class="video-views-elem2">
+                        <i class="fa fa-thumbs-up"></i>399
+                        <i class="fa fa-thumbs-down"></i>15
+                        <i class="fa fa-share" aria-hidden="true"></i>Share
+                        <i class="fa fa-floppy-o" aria-hidden="true"></i>Save
+                        <i class="fa fa-ellipsis-h"></i>
+                    </div> 
+                </div>
+
+                <hr class="grey">
+
+                <div class="subscribe">
+                    <div>
+                        <img class="profile-img" src="images/profile-img2.jpg" alt="Profile Image">
+                    </div>
+                    <div class="profile-txt">
+                        <span class="profile-txt-hdr">The Odin Project</span><br>
+                        <span class="profile-txt-subscribers">925 subscribers</span>
+                    </div>
+                    
+                    <button class="subscribe-btn">Subscribe</button>      
+                </div>
+                
+                <div class="subscribe-description">
+                    <p>
+                        How do you contribute to open source?  In this video, I'll describe the easiest way 
+                        to make a simple contribution to an open source project -- without using the command line, 
+                        a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds 
+                    </p>
+                    <p class="show-more grey"><a href="#">SHOW MORE</a></p>
+                    
+                </div>
+
+            </section>
+
+            <hr class="grey">
+
+            <article class="article-section">
+                <div class="comments">
+                    <span class="comment-number">14 Comments</span>
+                    <img src="images/sort-comments.PNG" alt="sort comments">
+                    <span class="sort-by grey"> <i class="fa fa-sort-amount-up"></i> SORT BY</span>
+                </div>
+
+                <div class="toggle comment-description">
+                    <img class="profile-img" src="images/profile-img3.jpg" alt="profile picture">
+                    <div class="comment-publicly">
+                        <span class="grey">Commenting publicly as <span class="comment-name">John Doe</span></span>
+                        <hr class="hr-comment grey">
+                    </div>
+                </div>
+
+                <div class="comment-container">
+                    <img class="profile-img" src="images/youtb-img.jpg" alt="">
+                    <div class="posted-comment">
+                        <div><span class="comment-name">Wing N.</span> <span class="comment-age grey"> 2years ago</span></div>
+                        <div class="comment-name-describe">"use your powers for good" haha tahank you for the video</div>
+                        <span class="comment-icons grey">
+                            <i class="fa fa-thumbs-up">10</i>
+                            <i class="fa fa-thumbs-down"></i>
+                            REPLY
+                        </span>
+                    </div>
+                </div>
+
+                <div class="comment-container">
+                    <img class="profile-img" src="images/profile-img4.jpg" alt="">
+                    <div class="posted-comment">
+                        <div><span class="comment-name">andrewscheuermann052</span> <span class="comment-age">years age</span></div>
+                        <div class="comment-name-describe"> FYI: the edit button has changed to a diagonal pencil</div>
+                        <span class="comment-icons grey">
+                            <i class="fa fa-thumbs-up">2</i>
+                            <i class="fa fa-thumbs-down"></i>
+                            REPLY
+                        </span>
+                    </div>
+                </div>
+
+            </article>
+        </div>
+
+        <aside class="side-section">
+            <div class="side-top-links">
+                <div class="upnext">Up next</div>
+                <div class="toggle">
+                    <span>AUTOPLAY</span> 
+                    <i class="fa fa-toggle-on"></i>
+                </div>
+            </div>
+
+            <div class="inner-side-content">
+                <img src="images/image-1.webp" alt="Image Thumbnails">
+
+                <div class="image-description">
+                    <span class="side-header-title grey">
+                        <a href=""> How to change your email address (Primary Email) in</a>
+                    </span><br><br>
+                    <div class="image-description-txt">
+                        <span> Skill guru</span><br>
+                        <span>3.1M views</span>
+                    </div>               
+                </div>
+            </div>
+
+            <hr class="hr__ grey">
+
+            <div class="inner-side-content">
+                <img src="images/image-2.webp" alt="Image Thumbnails">
+                
+                <div class="image-description">
+                    <span class="side-header-title grey">
+                        <a href=""> How to change your email address (Primary Email) in</a>
+                    </span><br><br>
+                    <div class="image-description-txt">
+                        <span> Skill guru</span><br>
+                        <span>3.1M views</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inner-side-content">
+                <img src="images/image-3.webp" alt="Image Thumbnails">
+                
+                <div class="image-description">
+                    <span class="side-header-title grey">
+                        <a href=""> Why I left my $200k job to become a software developer in</a>
+                    </span><br><br>
+                    <div class="image-description-txt">
+                        <span> Codedrip</span><br>
+                        <span> 189k views</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inner-side-content">
+                <img src="images/image-4.webp" alt="Image Thumbnails">
+            
+                <div class="image-description">
+                    <span class="side-header-title grey">
+                        <a href=""> Source Learning: David Peterson at TEDxUCLA in</a>
+                    </span><br><br>
+                    <div class="image-description-txt">
+                        <span> TEDx TALKS</span><br>
+                        <span> 18k views</span>
+                        <span>Recommendation</span>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="inner-side-content">
+                <img src="images/image-5.webp" alt="Image Thumbnails">
+                
+                <div class="image-description">
+                    <span class="side-header-title grey">
+                        <a href=""> Microsoft word tutorial| how to insert word into word in </a>
+                    </span><br><br>
+                    <div class="image-description-txt">
+                        <span> rahman maulana</span><br>
+                        <span> Recommended for you</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inner-side-content">
+                <img src="images/image-6.webp" alt="Image Thumbnails">
+                
+                <div class="image-description">
+                    <span class="side-header-title grey">
+                        <a href=""> Your first Github pull request (in 10 Mins) in </a>
+                    </span><br><br>
+                    <div class="image-description-txt">
+                        <span> Jackson Bates </span><br>
+                        <span> 41k views </span>
+                    </div>
+                </div>
+            </div>
+
+        </aside>
+    </div>
+    
+    <footer class="footer">
+       <div>Developers Community Copyright 2020 </div>    
+    </footer>
+
+</body>
+</html>
