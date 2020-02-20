@@ -2,7 +2,7 @@
 
 > Embedding images and videos.
 
-![screenshot](./app_screenshot.png)
+![screenshot](images/screenshot.PNG)
 
 This is a youtube clone of embedding images and videos .
 
