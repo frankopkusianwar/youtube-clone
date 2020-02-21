@@ -6,7 +6,8 @@
 html { font-size: 10px; padding:0; }
 .grey { color: #606060; }
 
-header {
+/* header */
+.navbar {
     display: flex;
     padding: 5px 0;
     position: fixed;
@@ -22,7 +23,11 @@ header {
     justify-content: center;
 }
 
-.header-logo ul li { display: inline-block; list-style-type: none; }
+.header-logo ul li { 
+    display: inline-block; 
+    list-style-type: none; 
+    color:#606060; 
+}
 .header-logo img { width: 100px; padding-left: 10px; }
 
 .search-container {
@@ -37,7 +42,7 @@ header {
     border-right: none;
     font-size: 1.7rem;
     padding: 5px;
-    border: 1px solid #606060;
+    border: 1px solid #bdc3c7;
     height: 34px;
     border-radius: 5px 0 0 5px;
     outline: none;
@@ -50,7 +55,7 @@ header {
     border-left: none;
     margin-top: 8px;
     margin-right: 16px;
-    background-color: #f8f8f8;
+    background-color:#ecf0f1;
     font-size: 17px;
     border: none;
     color: #333333;
@@ -75,18 +80,20 @@ header {
 
 .header-icons ul li:last-child { padding-right: 25px; }
 
+/* Page template A */
 .content-section{
     display: flex;
     justify-content: space-around;
     margin-top: 70px;
-    padding: 30px 120px;
+    margin-bottom: 40px;
+    padding: 30px 50px;
     background-color: #f6f6f6;
 }
 
 .left-content-section { width:60%; }
 
 .videosection iframe{
-    width: 660px; 
+    width: 740px; 
     height:450px;
     border: none;
 }
@@ -145,6 +152,7 @@ header {
 }
 .show-more { font-size: 1.3rem; }
 .show-more a { text-decoration: none; }
+/* Page template B */
 .side-section { width: 35%; }
 
 .side-header-title a{
@@ -208,12 +216,13 @@ header {
 .comment-icons{ font-size: 1.3rem; }
 .comment-icons i { padding-right: 13px; }
 
+/* footer */
 .footer {
     background-color: #333333;
     color: #ffffff;
     padding: 20px 25px;
     display: flex;
     justify-content: space-around;
-    margin: 40px 0 0 0;
+    margin: 0;
     font-size: 2rem;
 }
