@@ -26,8 +26,13 @@ html { font-size: 10px; padding:0; }
 .header-logo ul li { 
     display: inline-block; 
     list-style-type: none; 
-    color:#606060; 
+    color:#606060;
+    position: absolute;
+    top: 20px; 
 }
+
+.header-logo ul li:first-child { margin-top: -4px; }
+.header-logo ul li:last-child { padding-left: 35px; }
 .header-logo img { width: 100px; padding-left: 10px; }
 
 .search-container {
@@ -65,9 +70,10 @@ html { font-size: 10px; padding:0; }
 
 .header-icons {
     flex:1;
-    flex-basis: 25%;
+    flex-basis: 250px;
     text-align: right;
     color: rgb(96, 96, 96);
+    margin-right: 20px;
 }
 
 .header-icons ul li {
@@ -225,4 +231,62 @@ html { font-size: 10px; padding:0; }
     justify-content: space-around;
     margin: 0;
     font-size: 2rem;
+}
+
+/* media queries */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .videosection iframe {
+        width: 740px; 
+        height:450px;
+        border: none;
+      }
+
+      .header-logo {
+        flex:1;
+        flex-basis: 25%;
+        font-size: 2rem;
+        justify-content: center;
+    }
+    
+    .header-logo ul li { 
+        display: inline-block; 
+        list-style-type: none; 
+        color:#606060;
+        position: absolute;
+        top: 20px; 
+    }
+    
+    .header-logo ul li:first-child { margin-top: -4px; }
+    .header-logo ul li:last-child { padding-left: 35px; }
+    .header-logo img { width: 100px; padding-left: 10px; }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .videosection iframe {
+        width: 740px; 
+        height:450px;
+        border: none;
+      }
+
+      .header-logo {
+        flex:1;
+        flex-basis: 25%;
+        font-size: 2rem;
+        justify-content: center;
+    }
+    
+    .header-logo ul li { 
+        display: inline-block; 
+        list-style-type: none; 
+        color:#606060;
+        position: absolute;
+        top: 20px; 
+    }
+    
+    .header-logo ul li:first-child { margin-top: -4px; }
+    .header-logo ul li:last-child { padding-left: 35px; }
+    .header-logo img { width: 100px; padding-left: 10px; }
 }
