@@ -14,7 +14,7 @@ This project shows the format of embedding the YouTube video player into the web
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://frankopkusianwar.github.io/youtube-clone/)
 
 
 ## Getting Started
@@ -37,15 +37,15 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/frankopkusianwar)
-- Twitter: [@twitterhandle](https://twitter.com/franko0781)
-- Linkedin: [linkedin](https://linkedin.com/in/frank-okiror-250076b5)
+- Github: [@Okiror Frank](https://github.com/frankopkusianwar)
+- Twitter: [@Okiror Frank](https://twitter.com/franko0781)
+- Linkedin: [Okiror Frank](https://linkedin.com/in/frank-okiror-250076b5)
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/okikiola11)
-- Twitter: [@twitterhandle](https://twitter.com/Kikiolla3)
-- Linkedin: [linkedin](https://www.linkedin.com/in/okikiola-apelehin-459008122/)
+- Github: [@Okikiola Apelehin](https://github.com/okikiola11)
+- Twitter: [@Okikiola Apelehin](https://twitter.com/Kikiolla3)
+- Linkedin: [Okikiola Apelehin](https://www.linkedin.com/in/okikiola-apelehin-459008122/)
 
 ## 🤝 Contributing
 
