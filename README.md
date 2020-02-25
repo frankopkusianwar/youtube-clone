@@ -37,8 +37,8 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- Github: [@Okiror Frank](https://github.com/frankopkusianwar)
-- Twitter: [@Okiror Frank](https://twitter.com/franko0781)
+- Github: [Okiror Frank](https://github.com/frankopkusianwar)
+- Twitter: [Okiror Frank](https://twitter.com/franko0781)
 - Linkedin: [Okiror Frank](https://linkedin.com/in/frank-okiror-250076b5)
 
 👤 **Author2**
