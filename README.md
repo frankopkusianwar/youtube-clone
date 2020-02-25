@@ -43,8 +43,8 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author2**
 
-- Github: [@Okikiola Apelehin](https://github.com/okikiola11)
-- Twitter: [@Okikiola Apelehin](https://twitter.com/Kikiolla3)
+- Github: [Okikiola Apelehin](https://github.com/okikiola11)
+- Twitter: [Okikiola Apelehin](https://twitter.com/Kikiolla3)
 - Linkedin: [Okikiola Apelehin](https://www.linkedin.com/in/okikiola-apelehin-459008122/)
 
 ## 🤝 Contributing
